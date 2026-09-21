@@ -1,8 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Card } from 'primevue'
+</script>
 
 <template>
-  <h1>MIDI <i>touch</i></h1>
-  <p>Coming soon...</p>
+  <Card style="width: 25rem; overflow: hidden">
+    <template #title>MIDI <i>touch</i></template>
+    <template #content> Coming soon... </template>
+  </Card>
 </template>
 
 <style scoped></style>
